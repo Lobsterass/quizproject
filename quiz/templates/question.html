@@ -13,9 +13,10 @@
 	<body>
 		<h1>Har ufasningen av kontanter någon inverkan på demokratin?</h1>
 		<h1>{{ question_number }}. {{ question }}</h1>
-		<p>{{ answer1 }}</p>
-		<p>{{ answer2 }}</p>
-		<p>{{ answer3 }}</p>
+		<form action="">
+		<p><input type="button" name="svar" value="{{ answer1 }}" class="button"></p>
+		<p><input type="button" name="svar" value="{{ answer2 }}" class="button"></p>
+		</form>
 		<br>
 		<br>
 		<p><a href="{% url 'completed_page' quiz_number %}" class="button">Nästa</a></p>
