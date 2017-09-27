@@ -13,6 +13,7 @@
 	<body>
 		<h1>Angelas frågesport</h1>
 		<p>Välj en frågesport!</p>
+		<br>
 		{% for quiz in quizzes %}
 			<p><a href="{% url 'quiz_page' quiz.quiz_number %}" class="startbutton">
 			{{ quiz.name }}
