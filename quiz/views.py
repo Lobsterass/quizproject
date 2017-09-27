@@ -35,8 +35,8 @@ def question(request, quiz_number, question_number):
 	context = {
 			"question_number": question_number,
 			"question": "Hur många bultar har ölandsbron?",
-			"answer1": "12",
-			"answer": "66 400",
+			"answer1": "Sant",
+			"answer2": "Falskt",
 			"quiz_number": quiz_number,
 	}
 	return render(request, "question.html", context)
