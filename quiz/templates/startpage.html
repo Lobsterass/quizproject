@@ -13,6 +13,9 @@
 	<body>
 		<h1>Angelas frågesport</h1>
 		<p>Välj en frågesport!</p>
+		{% for quiz in quizzes %}
+		<p>{{ quiz.name }}</p>
+		{% endfor ‰}
 		<ol>
 			<li><a href="quiz.html">Frågesport 1</a></li<li>
 			<li>Frågesport 2</li>
