@@ -1,6 +1,9 @@
 from django.shortcuts import render
 
 def startpage(request):
+	context = {
+			"quizzes": quizzes,
+	}
 	return render(request, "startpage.html")
 
 def quiz(request, quiz_number):
