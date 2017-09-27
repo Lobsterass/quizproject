@@ -10,4 +10,4 @@ def question(request, quiz_number, question_number):
 	return render(request, "question.html")
 
 def completed(request, quiz_number):
-	return rednder(request, "completed.html")
+	return render(request, "completed.html")
