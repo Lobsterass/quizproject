@@ -47,7 +47,7 @@ h3 {
     text-decoration: none;
     background-color: transparent;
     color: #fff;
-    padding: 0.93em 1em;
+    padding: 0.75em 1em;
     border: 2px solid #fff;
     text-transform: uppercase;
     letter-spacing: 0.17em;
@@ -59,25 +59,35 @@ h3 {
     text-decoration: none;
     margin:6px;
 }
+.button:focus {
+    background-color: #fff;
+    color: #022832;
+    text-decoration: none;
+}
 .startbutton {
     font: Arial;
     font-size: 0.85em;
     text-decoration: none;
     background-color: transparent;
     color: #fff;
-    padding: 0.93em 1em;
+    padding: 0.75em 1em;
     border: 2px solid #fff;
     text-transform: uppercase;
     letter-spacing: 0.17em;
-    margin: 3px;
+    margin: 6px;
     display: inline-block;
 }
 .startbutton:hover {
     background-color: #fff;
     color: #022832;
     text-decoration: none;
-    margin: 3px;
+    margin: 6px;
     display: inline-block;
+}
+.startbutton:focus {
+    background-color: #fff;
+    color: #022832;
+    text-decoration: none;
 }
 .divider{
     width:10px;
