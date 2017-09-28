@@ -1,3 +1,5 @@
+from quiz.models import Quiz
+
 from django.shortcuts import render
 
 def startpage(request):
