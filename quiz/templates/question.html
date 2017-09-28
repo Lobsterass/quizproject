@@ -16,7 +16,7 @@
 		<h1>Har ufasningen av kontanter någon inverkan på demokratin?</h1>
 		<h1>{{ question_number }}. {{ question }}</h1>
 		<br>
-		<form action="{% url 'completed_page' quiz_number %}">
+		<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">
 		<p><input type="submit" name="svar" value="{{ answer1 }}" class="button"><input type="submit" name="svar" value="{{ answer2 }}" class="button"></p>
 		</form>
 		<br>
