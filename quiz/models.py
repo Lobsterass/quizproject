@@ -2,7 +2,7 @@ from django.db import models
 
 class Quiz(models.Model):
 	quiz_number = models.PositiveIntegerField()
-	name = models.CarField(max_length=100)
+	name = models.CharField(max_length=100)
 	description = models.TextField()
 
 class Question(models.Model):
