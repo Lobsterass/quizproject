@@ -18,7 +18,7 @@
 			<br>
 			<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">
 				{% csrf_token %}	
-				<p><input type="submit" name="svar" value="{{ answer1 }}" class="button"><input type="submit" name="svar" value="{{ answer2 }}" class="button"></p>
+				<p><input type="radio" name="answer" value="1" {{ answer }} class="button"><input type="radio" name="answer" value="2"{{ answer }} class="button"><input type="radio" name="answer" value="3" {{ answer }} class="button"></p>
 			</form>
 			<br>
 		</div>
