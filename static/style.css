@@ -1,9 +1,9 @@
 html {
     height: 100%;
+    background-color: rgba(0,67,87,1);
 }
 body {
     min-height: 100%;
-    background: rgba(0,0,0,1);
     background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(80%, rgba(0,67,87,1)), color-stop(100%, rgba(0,67,87,1)));
     background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
@@ -11,6 +11,7 @@ body {
     background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#004357', GradientType=0 );
+    background-color: rgba(0,67,87,1);
 }
 body {
     color: #fff;
@@ -131,7 +132,7 @@ h6 {
     display:inline-block;
 }
 .divclass{
-    margin-top: 10%;
+    padding-top: 10%;
     margin-right: 5%;
     margin-bottom: 10%;
     margin-left: 5%;
