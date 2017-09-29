@@ -13,6 +13,7 @@
 </head>
 	<body>
 		<div class="divclass">
+			<br>
 			<h4>{{ question_number }}. {{ question }}</h4>
 			<br>
 			<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">
