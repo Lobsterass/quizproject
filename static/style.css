@@ -1,45 +1,81 @@
 html {
-	height: 100%;
+    height: 100%;
 }
 body {
-	min-height: 100%;
-	background: rgba(0,0,0,1);
-	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(80%, rgba(0,67,87,1)), color-stop(100%, rgba(0,67,87,1)));
-	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#004357', GradientType=0 );
+    min-height: 100%;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(80%, rgba(0,67,87,1)), color-stop(100%, rgba(0,67,87,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,67,87,1) 80%, rgba(0,67,87,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#004357', GradientType=0 );
 }
 body {
-	color: #fff;
-	font-size: 14px;
-	font-family: Arial;
-	line-height: 1.9em;
-	text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 1.9em;
+    text-align: center;
 }
-h1,h2 {
-	color: #fff;
-	font-family: Abril Fatface;
-	font-weight: 100;
-	font-size: 7vw;
-	letter-spacing: 0.04em;
-	text-transform: normal;
-	line-height: 1.05em;
+h1 {
+    color: #fff;
+    font-family: Abril Fatface;
+    font-weight: 100;
+    font-size: 7vw;
+    letter-spacing: 0.04em;
+    text-transform: normal;
+    line-height: 1.05em;
+}
+h2 {
+    color: #fff;
+    font-family: Abril Fatface;
+    font-weight: 100;
+    font-size: 2vw;
+    letter-spacing: 0.04em;
+    text-transform: normal;
+    line-height: 1.05em;
 }
 h3 {
-	padding-top: 3em;
-	padding-bottom: 8px;
-	font-weight: 100;
-	text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+h4 {
+    color: #fff;
+    font-family: Abril Fatface;
+    font-weight: 100;
+    font-size: 4vw;
+    letter-spacing: 0.04em;
+    text-transform: normal;
+    line-height: 1.3em;
+}
+h5 {
+    color: #fff;
+    font-family: Abril Fatface;
+    font-weight: 100;
+    font-size: 3vw;
+    letter-spacing: 0.04em;
+    text-transform: normal;
+    line-height: 1.05em;
+}
+h6 {
+    padding-top: 1em;
+    padding-bottom: 10px;
+    font-weight: 100;
+    text-transform: uppercase !important;
     letter-spacing: 0.17em;
     font-size: 1em;
     line-height: 1.5em;
 }
 .small {
-	font-size: 3em;
-	line-height: 0.4em;
+    font-size: 3em;
+    line-height: 0.4em;
 }
 .button {
     font: Arial;
@@ -99,4 +135,12 @@ h3 {
     margin-right: 5%;
     margin-bottom: 10%;
     margin-left: 5%;
+}
+.columnstart {
+    background: white;
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin: 25px;
 }
