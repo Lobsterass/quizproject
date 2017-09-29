@@ -24,7 +24,7 @@ h1 {
     color: #fff;
     font-family: Abril Fatface;
     font-weight: 100;
-    font-size: 6.5vw;
+    font-size: 7vw;
     letter-spacing: 0.04em;
     text-transform: normal;
     line-height: 1.05em;
@@ -60,10 +60,10 @@ h5 {
     color: #fff;
     font-family: Abril Fatface;
     font-weight: 100;
-    font-size: 3vw;
+    font-size: 2.5vw;
     letter-spacing: 0.04em;
     text-transform: normal;
-    line-height: 1.05em;
+    line-height: 1.2em;
 }
 @media (max-width: 767px) {
 h1 {
