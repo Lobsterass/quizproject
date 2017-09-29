@@ -13,7 +13,7 @@
 </head>
 	<body>
 		<div class="divclass">
-		<h1>Välj rätt quiz!</h1>
+		<h1>Välj en demokratisk quiz!</h1>
 		<br>
 		{% for quiz in quizzes %}
 			<p><a href="{% url 'quiz_page' quiz.quiz_number %}" class="startbutton">
@@ -21,6 +21,15 @@
 			</a></p>
 		{% endfor %}
 		</div>
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107269417-1"></script>
+			<script>
+ 			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments)};
+  			gtag('js', new Date());
+
+  			gtag('config', 'UA-107269417-1');
+		</script>
 	</body>
 </html>
 
