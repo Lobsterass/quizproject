@@ -65,9 +65,9 @@ h5 {
     text-transform: normal;
     line-height: 1.05em;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 h5 {
-    font-size: 30px;
+    font-size: 35px;
     }
 }
 h6 {
