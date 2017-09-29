@@ -13,8 +13,24 @@
 </head>
 	<body>
 		<div class="divclass">
-		<h1>Välj en quiz!</h1>
-		<br>
+			<div class=“container”>
+       			<div class=“row”>
+            		<h1>Välj en quiz!</h1></div>
+            		<br>
+            		<br>
+           			<div class=“row”>
+                	{% for quiz in quizzes %}
+               		 <div class=“col-sm-4 column1">
+                    <img class=“img-circle” src=“/static/image-ramensoppa.jpeg” alt=“Matquiz” style=“width:300px;height:300px;“>
+                    <br>
+                    <h2> {{ quiz.name }} </h2>
+                    <h3> {{ quiz.description }} </h3>
+                    <a href=“{% url ‘quiz_page’ quiz.quiz_number %}“>
+                        <button type=“button”>Testa dig här!</button>
+                    </a>
+               	</div>
+                {% endfor %}
+				<br>
 		{% for quiz in quizzes %}
 			<p><a href="{% url 'quiz_page' quiz.quiz_number %}" class="startbutton">
 			{{ quiz.name }}
